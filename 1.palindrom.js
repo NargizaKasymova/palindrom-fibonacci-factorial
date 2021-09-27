@@ -6,10 +6,12 @@ function isPalindrom(word) {
     let result
 
     for (let i = 0; i< arr.length; i++) {
-        return (arr[i] == arr2[i]) ? true : false
+        if (arr[i] !== arr2[i]) {
+            return false
+        }  
     }
 
-    // return result
+    return true
 }
 
-console.log(isPalindrom('sabss'))
+console.log(isPalindrom('sas'))
