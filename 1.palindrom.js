@@ -6,10 +6,10 @@ function isPalindrom(word) {
     let result
 
     for (let i = 0; i< arr.length; i++) {
-        (arr[i] == arr2[i]) ? result = true : result = false
+        return (arr[i] == arr2[i]) ? true : false
     }
 
-    return result
+    // return result
 }
 
-console.log(isPalindrom('hannah'))
+console.log(isPalindrom('sabss'))
